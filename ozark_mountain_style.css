@@ -1,0 +1,84 @@
+
+/* CSS Styles for Ozark Mountain Theme */
+body {
+    background-image: url('ozark_landscape_background.jpg'); /* Replace with your image path or URL */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fixed background */
+    /* ... other styling properties ... */
+}
+
+.header {
+    background-color: #4d2600; /* Dark brown */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+}
+.content {
+    margin: 15px auto;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent grey */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Box shadow for depth */
+}
+.paragraph {
+    background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent grey */
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.image-container, .video-container, .graph-container {
+    text-align: center; /* Centering content */
+    margin-bottom: 20px;
+}
+.footer {
+    background-color: #4d2600; /* Dark brown */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.navigation-link {
+    color: #000000; /* Blue color for navigation link */
+    text-decoration: none; /* No underline */
+    font-weight: bold;
+}
+.navigation-link:hover {
+    color: #f1f6fb; 
+}
+/* Existing CSS styles... */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333; /* Dark background for navbar */
+    position: fixed; /* Fixed navbar at the top */
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2; /* Light text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Color change on hover */
+    color: black;
+}
+
+/* Adjusting the body's top padding to ensure content is not hidden behind the navbar */
+body {
+    padding-top: 50px;
+}
+
+/* ... Continue with the rest of your CSS ... */
+
