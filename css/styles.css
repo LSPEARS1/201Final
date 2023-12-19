@@ -91,6 +91,13 @@
   }
 }
 
+.footer-note {
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
